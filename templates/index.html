@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quantum Activation Engine</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+<h1>Quantum Activation Engine</h1>
+
+<div id="sceneContainer" style="width:800px;height:400px;"></div>
+
+<label>A</label><input type="range" id="A" min="0" max="2" step="0.1" value="1">
+<label>ω</label><input type="range" id="omega" min="1" max="10" step="0.1" value="6.28">
+<label>B</label><input type="range" id="B" min="0" max="2" step="0.1" value="1">
+<label>D</label><input type="range" id="D" min="0" max="2" step="0.1" value="1">
+<label>Threshold</label><input type="range" id="threshold" min="0" max="2" step="0.1" value="0.9">
+
+<canvas id="chart" width="800" height="300"></canvas>
+
+<h2 id="stateDisplay">State: 0</h2>
+
+<script src="/static/threeScene.js"></script>
+<script src="/static/script.js"></script>
+
+</body>
+</html>
